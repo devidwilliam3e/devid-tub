@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <style>
 @charset "UTF-8";
 
@@ -29,19 +30,37 @@
     --fonte-android: 'Android', 'cursive';
 }
 
+
+
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
+
+
+
+
+
 body {
+    background-image: - url( imagens/chinelos1.png);
+    background-repeat: no-repeat ;
     background-color: darkgreen;
     font-family: var(--fonte-padrao);
 }
 
+
+
+
+
 a.externo::after {
     content: '\00A0\1F517';
 }
+
+
+
+
 
 header {
     background-color: chartreuse;
@@ -49,6 +68,10 @@ header {
     text-align: center;
     padding-top: 40px;
 }
+
+
+
+
 
 header > h1 {
     color: black;
@@ -58,6 +81,10 @@ header > h1 {
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
+
+
+
+
 
 header > p {
     font-family: var(--fonte-padrao);
@@ -70,11 +97,20 @@ header > p {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
+
+
+
+
+
 nav {
     background-color: var(--cor5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192)
 }
+
+
+
+
 
 nav > a {
     color: white;
@@ -85,10 +121,17 @@ nav > a {
     transition-duration: 0.5s;
 }
 
+
+
+
+
 nav > a:hover {
     background-color: var(--cor3);
     color: var(--cor5);
 }
+
+
+
 
 main {
     min-width: 300px;
@@ -102,6 +145,10 @@ main {
     border-bottom-right-radius: 10px;
 }
 
+
+
+
+
 main h1 {
     color: black;
     font-family: var(--fonte-destaque);
@@ -109,6 +156,10 @@ main h1 {
     font-weight: normal;
     font-size: 1.8em
 }
+
+
+
+
 
 main h2 {
     font-family: var(--fonte-android);
@@ -119,6 +170,10 @@ main h2 {
     text-indent: 8px;
 }
 
+
+
+
+
 main p {
      margin: 15px  0px;
      text-align: justify;
@@ -128,10 +183,17 @@ main p {
      text-align: center;
 }
 
+
+
+
+
 main strong {
     color: var(--cor4);
     font-weight: bold;
 }
+
+
+
 
 main a {
     text-decoration: none;
@@ -141,10 +203,16 @@ main a {
     padding: 2px 6px;
 }
 
+
+
+
 main a:hover {
     text-decoration: underline;
     color: var(--cor4)
 }
+
+
+
 
 
 div.video {
@@ -155,6 +223,10 @@ div.video {
     position: relative;
 }
 
+
+
+
+
 div.video > iframe {
     position: absolute;
     top: 5%;
@@ -162,6 +234,9 @@ div.video > iframe {
     width: 90%;  
     height: 90%;
 }
+
+
+
 
 aside > h3 {
     background-color: var(--cor4);
@@ -171,11 +246,18 @@ aside > h3 {
     border-radius: 10px 10px 0px 0px;
 }
 
+
+
+
 aside > ul {
     list-style-type: '\2705\00A0\00A0';
     list-style-position: inside;
     columns: 2;
 }
+
+
+
+
 
 footer {
     border-color: var(--cor3);
@@ -185,58 +267,243 @@ footer {
     padding: 5px;
 }
 
+
+
+
+
 footer a {
     color: white;
     font-weight: bolder;
     text-decoration: none;
 }
 
+
+
+
+
 footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
+}
+
+
+
+.ab {
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+hr {
+    color: blue;
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(228, 228, 228);
+}
+
+div#container {
+    overflow-x: auto;
 }
 
     </style>
 </head>
 <body>
 <header>
-<h1>BORA COMPRAR</h1>
+                                 <h1>BORA COMPRAR</h1>
 <P>VENHA COMPRAR AQUE</P>
 </header>    
 <nav>
 <a href="contato.html">contato</a>
-<a href="#">sapatos</a>
-<a href="#">bruzas</a>
-<a href="#">chinelos</a>
+<a href="sapato.html">sapatos</a>
+<a href="bluzas.html">bluzas</a>
+<a href="chinelos.html">chinelos</a>
+<a href="#">carros</a>
+<a href="BMW.html">BMW</a>
+<a href="GOL.html">GOL</a>
+<a href="porsche.html">porsche</a>
+
 </nav>
     <main>
         <article>
-<h1>tenis</h1>
+                                 <h1>tenis</h1>
 <p>a que e uns marcas de sapatos</p>
-<img width="200px" src="imagens/imagem1.png" alt="">
-<img width="200px" src="imagens/imagem2.png" alt="">
-<img width="200px" src="imagens/imagem3.png" alt="">
-<img width="200px" src="imagens/imagem4.png" alt="">
-<img width="200px" src="imagens/imagem5.png" alt="">
-<img width="200px" src="imagens/imagem6.png" alt="">
-
-<h1>bluzas</h1>
+<img width="200px" src="imagens/imagem1.png" alt=""><a class="ab" href="imagens/imagem1.png">COMPRAR</a><br>
+<hr>
+<img width="200px" src="imagens/imagem2.png" alt=""><a class="ab" href="imagens/imagem2.png">COMPRAR</a><br>
+<hr>
+<img width="200px" src="imagens/imagem3.png" alt=""><a class="ab" href="imagens/imagem3.png">COMPRAR</a><br>
+<hr>
+<img width="200px" src="imagens/imagem4.png" alt=""><a class="ab" href="imagens/imagem4.png">COMPRAR</a><br>
+<hr>
+<img width="200px" src="imagens/imagem5.png" alt=""><a class="ab" href="imagens/imagem5.png">COMPRAR</a><br>
+<hr>
+<img width="200px" src="imagens/imagem6.png" alt=""><a class="ab" href="imagens/imagem6.png">COMPRAR</a><br>
+<hr>
+                                 <h1>bluzas</h1>
 <p>a que e uns marcas de bruzas</p>
-<img width="200px" src="imagens/foto1.png" alt="">
-<img width="200px" src="imagens/foto2.png" alt="">
-<img width="200px" src="imagens/foto3.png" alt="">
-<img width="200px" src="imagens/foto4.png" alt="">
-<img width="200px" src="imagens/foto5.png" alt="">
-<img width="200px" src="imagens/foto6.png" alt="">
-<h1>chinelos</h1>
+<img width="200px" src="imagens/foto1.png" alt=""><a class="ab" href="imagens/foto1.png">COMPRAR</a><br>
+<hr>
+<img width="200px" src="imagens/foto2.png" alt=""><a class="ab" href="imagens/foto2.png">COMPRAR</a><br>
+<hr>
+<img width="200px" src="imagens/foto3.png" alt=""><a class="ab" href="imagens/foto3.png">COMPRAR</a><br>
+<hr>
+<img width="200px" src="imagens/foto4.png" alt=""><a class="ab" href="imagens/foto4.png">COMPRAR</a><br>
+<hr>
+<img width="200px" src="imagens/foto5.png" alt=""><a class="ab" href="imagens/foto5.png">COMPRAR</a><br>
+<hr>
+<img width="200px" src="imagens/foto6.png" alt=""><a class="ab" href="imagens/foto6.png">COMPRAR</a><br>
+<hr>
+                                 <h1>chinelos</h1>
 <p>aque e uns marcas de chinelos</p>
-<img width="200px-" src="imagens/chinelos1.png" alt="">
-<img width="200px-" src="imagens/chinelos2.png" alt="">
-<img width="200px-" src="imagens/chinelos3.png" alt="">
-<img width="200px-" src="imagens/chinelos4.png" alt="">
-<img width="200px-" src="imagens/chinelos5.png" alt="">
-<img width="200px-" src="imagens/chinelos6.png" alt="">
-        </article>
+<img width="200px-" src="imagens/chinelos1.png" alt=""><a class="ab" href="imagens/chinelos1.png">COMPRAR</a><br>
+<hr>
+<img width="200px-" src="imagens/chinelos2.png" alt=""><a class="ab" href="imagens/chinelos2.png">COMPRAR</a><br>
+<hr>
+<img width="200px-" src="imagens/chinelos3.png" alt=""><a class="ab" href="imagens/chinelos3.png">COMPRAR</a><br>
+<hr>
+<img width="200px-" src="imagens/chinelos4.png" alt=""><a class="ab" href="imagens/chinelos4.png">COMPRAR</a><br>
+<hr>
+<img width="200px-" src="imagens/chinelos5.png" alt=""><a class="ab" href="imagens/chinelos5.png">COMPRAR</a><br>
+<hr>
+<img width="200px-" src="imagens/chinelos6.png" alt=""><a class="ab" href="imagens/chinelos6.png">COMPRAR</a><br>
+<hr>
+
+
+
+
+
+
+
+
+
+                                <h1>lista de material de escola</h1>
+                                <div id="container">
+                                    <table>
+                                        <caption>Tabelas de Material</caption>
+                                        <thead>
+                                            <tr>
+                                                <th>estojo</th>
+                                                <th>vermelho</th>
+                                                <th>azul</th>
+                                                <th>Verde</th>
+                                                <th>Amarelo</th>
+                                                <th>preto</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>Lapiz</th>
+                                                <th>vermelho</th>
+                                                <th>azul</th>
+                                                <th>Verde</th>
+                                                <th>Amarelo</th>
+                                                <th>preto</th>
+                                            </tr>
+                                            <tr>
+                                                <th>caderno</th>
+                                                <th>vermelho</th>
+                                                <th>azul</th>
+                                                <th>Verde</th>
+                                                <th>Amarelo</th>
+                                                <th>preto</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Mochila</th>
+                                                <th>vermelho</th>
+                                                <th>azul</th>
+                                                <th>Verde</th>
+                                                <th>Amarelo</th>
+                                                <th>preto</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Boracha</th>
+                                                <th>vermelho</th>
+                                                <th>azul</th>
+                                                <th>Verde</th>
+                                                <th>Amarelo</th>
+                                                <th>preto</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Caneta</th>
+                                                <th>vermelho</th>
+                                                <th>azul</th>
+                                                <th>Verde</th>
+                                                <th>Amarelo</th>
+                                                <th>preto</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Lapiz de cor</th>
+                                                <th>vermelho</th>
+                                                <th>azul</th>
+                                                <th>Verde</th>
+                                                <th>Amarelo</th>
+                                                <th>preto</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Marcadores</th>
+                                                <th>vermelho</th>
+                                                <th>azul</th>
+                                                <th>Verde</th>
+                                                <th>Amarelo</th>
+                                                <th>preto</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Cartolinas</th>
+                                                <th>vermelho</th>
+                                                <th>azul</th>
+                                                <th>Verde</th>
+                                                <th>Amarelo</th>
+                                                <th>preto</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Régua de 50 cm</th>
+                                                <th>vermelho</th>
+                                                <th>azul</th>
+                                                <th>Verde</th>
+                                                <th>Amarelo</th>
+                                                <th>preto</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Afia com reservatório</th>
+                                                <th>vermelho</th>
+                                                <th>azul</th>
+                                                <th>Verde</th>
+                                                <th>Amarelo</th>
+                                                <th>preto</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Guaches</th>
+                                                <th>vermelho</th>
+                                                <th>azul</th>
+                                                <th>Verde</th>
+                                                <th>Amarelo</th>
+                                                <th>preto</th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
     </main>
+    <footer>
+        <p>site criado por <a href="https://www.instagram.com/devid24242/" target="_blank">DEVID WILLIAM</a></p>
+    </footer>
 </body>
 </html>
